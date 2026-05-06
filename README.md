@@ -1,12 +1,9 @@
 # 📺 VibeTube Advisor Pro (Lab 20 Completed)
 
 <div align="center">
-  <img src="./docs/img1.png" alt="Dynamic Hub & Spoke Graph" width="48%">
-  <img src="./docs/img2.png" alt="Agent Logs & Video Slider" width="48%">
+  <img src="./docs/img2.png" alt="Dynamic Hub & Spoke Graph" width="48%">
+  <img src="./docs/img1.png" alt="Agent Logs & Video Slider" width="48%">
 </div>
-<p align="center">
-  <em>(Ghi chú: Bạn hãy chụp 2 tấm ảnh: 1 ảnh chụp cái Đồ thị động ở trên cùng, và 1 ảnh chụp phần Kết quả + Video lướt ngang ở dưới, lưu vào thư mục <code>docs/</code> với tên <code>demo_graph.png</code> và <code>demo_results.png</code> để hiển thị cạnh nhau nhé!)</em>
-</p>
 
 **VibeTube Advisor Pro** là một hệ thống **Multi-Agent Research System** hoàn chỉnh được xây dựng dựa trên kiến trúc LangGraph và OpenAI. Khác với các Chatbot thông thường, VibeTube hoạt động như một "Bác sĩ tâm lý số", có khả năng thấu cảm cảm xúc của người dùng, tự động tìm kiếm các video YouTube phù hợp để giải toả tâm trạng và gửi gắm những lời khuyên sâu sắc.
 
