@@ -18,11 +18,14 @@ class ResearchState(BaseModel):
     route_history: list[str] = Field(default_factory=list)
 
     sources: list[SourceDocument] = Field(default_factory=list)
+    emotion_analysis: str | None = None
+    search_queries: list[str] = Field(default_factory=list)
     research_notes: str | None = None
     analysis_notes: str | None = None
     final_answer: str | None = None
 
     agent_results: list[AgentResult] = Field(default_factory=list)
+    total_cost: float = 0.0
     trace: list[dict[str, Any]] = Field(default_factory=list)
     errors: list[str] = Field(default_factory=list)
 

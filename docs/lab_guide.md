@@ -74,4 +74,7 @@ Benchmark tối thiểu:
 Mỗi nhóm trả lời 2 câu:
 
 1. Case nào nên dùng multi-agent? Vì sao?
+- **Trả lời:** Nên dùng Multi-Agent cho các bài toán phức tạp, đòi hỏi nhiều kỹ năng chuyên biệt (như phân tích cảm xúc, tìm kiếm dữ liệu thực tế, tổng hợp nội dung). Việc chia nhỏ giúp mỗi Agent tập trung làm tốt một việc với công cụ (tools) và prompt riêng biệt, tăng chất lượng đầu ra và dễ dàng bảo trì, bắt lỗi (debug).
+
 2. Case nào không nên dùng multi-agent? Vì sao?
+- **Trả lời:** Không nên dùng Multi-Agent cho các tác vụ đơn giản, có câu trả lời trực tiếp (ví dụ: dịch thuật, tóm tắt văn bản ngắn, tính toán cơ bản). Việc áp dụng Multi-Agent vào đây sẽ làm tăng độ trễ (latency), tốn kém chi phí (token cost) và làm phức tạp hóa hệ thống không cần thiết.
